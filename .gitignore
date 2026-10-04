@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+.pytest_cache/
+data/hk_registry_cache/*.csv
+.claude/settings.local.json
+
+# Real-world test documents: keep out of the repo (demo data must be synthetic)
+Updated_Commercial_Invoice_*.pdf
+WhatsApp Image *.jpeg

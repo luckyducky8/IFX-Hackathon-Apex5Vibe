@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+python-multipart   # lets FastAPI read file uploads
+pdfplumber         # PDF text + metadata; also installs Pillow (images) and pypdfium2 (renders PDF pages)
+pytest
+httpx              # needed by FastAPI's TestClient in tests
